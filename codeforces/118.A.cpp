@@ -1,6 +1,8 @@
 //here is my task  http://codeforces.com/problemset/problem/118/A
 #include<iostream>
-#include<ctype>
+#include<cctype>
+#include <stdio.h>
+
 using namespace std;
  
 int main () {
@@ -21,7 +23,7 @@ int main () {
 		        cout<<"";
 		} else 
 		{ 
-		    cout<<"."<<tolower(a[i]);
+		    cout<<"."<< tolower (a[i]);
 		}
 	}
 
