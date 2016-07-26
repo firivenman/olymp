@@ -8,11 +8,12 @@ using namespace std;
 int main() {
 	int n; 
 	cin>>n;
-	std::string s[1];
+
+	int c,v,b;
 	int a=0;//count right answers
-	for(int i=0;n=i;i++){
-	    cin >> s >> s >> s >>endl;
-		if (s+s+s>1) {
+	for(int i=0;i<=n;i++){
+	    cin >> c >> v >> b >>endl;
+		if (c+v+b>1) {
 		    ++a;
 		} else{a=a;
 		}

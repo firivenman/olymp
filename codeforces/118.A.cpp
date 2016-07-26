@@ -15,6 +15,7 @@ int main () {
 		//int len = s.size();
 
 		if(a[i]=='a' || a[i]=='o' 
+		    || a[i]=='A' || a[i]=='O' 
 		    || a[i]=='y' || a[i]=='e' 
 		    || a[i]=='u' || a[i]=='i'
             || a[i]=='Y' || a[i]=='E' 
@@ -23,7 +24,7 @@ int main () {
 		        cout<<"";
 		} else 
 		{ 
-		    cout<<"."<< tolower (a[i]);
+		   cout<<"."<< (char)tolower(a[i]);
 		}
 	}
 
