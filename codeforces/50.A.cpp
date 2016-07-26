@@ -1,6 +1,6 @@
 //here is my task http://codeforces.com/problemset/problem/50/A
 #include<iostream>
-#include<string>
+
 #include <cmath>
 
 using namespace std;
